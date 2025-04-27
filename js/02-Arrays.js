@@ -7,8 +7,13 @@ const ciudades = [];
             break;
         }
         ciudades.push(ciudad);
+        ciudades.push("Paris");
+        ciudades[1] = "Barcelona";
+
     }
     document.writeln("<br>Cantidad de ciudades: " + ciudades.length);
+
+    document.writeln("<br>La segunda ciudad es: " + ciudades[1]);
 
 
 
